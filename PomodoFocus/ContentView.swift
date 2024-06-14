@@ -11,15 +11,31 @@ import RealityKitContent
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
+            
+            TabView{
+                PomodoroView()
+                    .tabItem {
+                        Label ("Pomodoro", systemImage: "timer")
+                }
+                
+                ShortBreakView()
+                    .tabItem {
+                        Label("Short Break", systemImage: "hourglass")
+                }
+                
+                LongBreakView()
+                    .tabItem {
+                        Label("Long Break", systemImage:"hourglass.badge.plus")
+                }
+                
+                SoundsView()
+                    .tabItem {
+                        Label("Sounds", systemImage:"ear")
+                }
+            }
+            
         }
-        .padding()
     }
-}
 
 #Preview(windowStyle: .automatic) {
     ContentView()

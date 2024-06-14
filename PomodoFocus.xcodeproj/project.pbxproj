@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		ABF8ED932C1BF0270057F5EA /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = ABF8ED922C1BF0270057F5EA /* RealityKitContent */; };
 		ABF8ED952C1BF0270057F5EA /* PomodoFocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8ED942C1BF0270057F5EA /* PomodoFocusApp.swift */; };
-		ABF8ED972C1BF0270057F5EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8ED962C1BF0270057F5EA /* ContentView.swift */; };
 		ABF8ED992C1BF0290057F5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF8ED982C1BF0290057F5EA /* Assets.xcassets */; };
 		ABF8ED9C2C1BF0290057F5EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF8ED9B2C1BF0290057F5EA /* Preview Assets.xcassets */; };
+		ABF8EDB22C1BF90A0057F5EA /* ShortBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8EDB12C1BF90A0057F5EA /* ShortBreakView.swift */; };
+		ABF8EDB42C1BF9160057F5EA /* LongBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8EDB32C1BF9160057F5EA /* LongBreakView.swift */; };
+		ABF8EDB62C1BF9270057F5EA /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8EDB52C1BF9270057F5EA /* SoundsView.swift */; };
+		ABF8EDBA2C1C0BAA0057F5EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8EDB92C1C0BAA0057F5EA /* ContentView.swift */; };
+		ABF8EDBC2C1C0BD70057F5EA /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8EDBB2C1C0BD70057F5EA /* PomodoroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABF8ED8D2C1BF0270057F5EA /* PomodoFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF8ED912C1BF0270057F5EA /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		ABF8ED942C1BF0270057F5EA /* PomodoFocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoFocusApp.swift; sourceTree = "<group>"; };
-		ABF8ED962C1BF0270057F5EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABF8ED982C1BF0290057F5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABF8ED9B2C1BF0290057F5EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABF8ED9D2C1BF0290057F5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF8EDB12C1BF90A0057F5EA /* ShortBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortBreakView.swift; sourceTree = "<group>"; };
+		ABF8EDB32C1BF9160057F5EA /* LongBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongBreakView.swift; sourceTree = "<group>"; };
+		ABF8EDB52C1BF9270057F5EA /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
+		ABF8EDB92C1C0BAA0057F5EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABF8EDBB2C1C0BD70057F5EA /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +65,14 @@
 			isa = PBXGroup;
 			children = (
 				ABF8ED942C1BF0270057F5EA /* PomodoFocusApp.swift */,
-				ABF8ED962C1BF0270057F5EA /* ContentView.swift */,
 				ABF8ED982C1BF0290057F5EA /* Assets.xcassets */,
 				ABF8ED9D2C1BF0290057F5EA /* Info.plist */,
 				ABF8ED9A2C1BF0290057F5EA /* Preview Content */,
+				ABF8EDB12C1BF90A0057F5EA /* ShortBreakView.swift */,
+				ABF8EDB32C1BF9160057F5EA /* LongBreakView.swift */,
+				ABF8EDB52C1BF9270057F5EA /* SoundsView.swift */,
+				ABF8EDB92C1C0BAA0057F5EA /* ContentView.swift */,
+				ABF8EDBB2C1C0BD70057F5EA /* PomodoroView.swift */,
 			);
 			path = PomodoFocus;
 			sourceTree = "<group>";
@@ -154,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF8ED972C1BF0270057F5EA /* ContentView.swift in Sources */,
+				ABF8EDB42C1BF9160057F5EA /* LongBreakView.swift in Sources */,
+				ABF8EDBA2C1C0BAA0057F5EA /* ContentView.swift in Sources */,
 				ABF8ED952C1BF0270057F5EA /* PomodoFocusApp.swift in Sources */,
+				ABF8EDBC2C1C0BD70057F5EA /* PomodoroView.swift in Sources */,
+				ABF8EDB62C1BF9270057F5EA /* SoundsView.swift in Sources */,
+				ABF8EDB22C1BF90A0057F5EA /* ShortBreakView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
